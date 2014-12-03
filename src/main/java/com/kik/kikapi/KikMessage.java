@@ -60,7 +60,7 @@ public abstract class KikMessage
 
     protected KikMessage(Context context) throws IllegalArgumentException
     {
-        if (_context == null) {
+        if (context == null) {
             throw new IllegalArgumentException("Context can't be null when creating a KikMessage");
         }
 
